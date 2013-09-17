@@ -1,0 +1,166 @@
+T04.Movement
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement_dbg.app/Contents/Info.plist DemoApp-Info.plist
+cSymLink /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug/Movement_dbg.app /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement_dbg.app
+cStripNIB /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../MacOSX/MainMenu.nib
+cCompileC build/MacOSX.build/Debug/04.Movement.build/Objects-normal/x86_64/main.o /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/04.Movement/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement_dbg.app/Contents/MacOS/Movement_dbg normal x86_64
+cTouch /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement_dbg.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000005130312F00000000000000AA
+t1362112815
+s170
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c0000000051A3493D00000000000069F0
+t1369655613
+s27120
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c0000000051A3493D0000000000006730
+t1369655613
+s26416
+
+N/System/Library/Frameworks/IOKit.framework/IOKit
+c0000000051A349450000000000130950
+t1369655621
+s1247568
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c0000000051A34949000000000002DAD0
+t1369655625
+s187088
+
+N/Users/chenhao/Work/irrlicht/include/driverChoice.h
+c0000000052382DF90000000000000501
+t1379413497
+s1281
+
+N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement_dbg.app
+t2
+s0
+
+N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement_dbg.app/Contents/Info.plist
+t2
+s0
+
+N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement_dbg.app/Contents/MacOS/Movement_dbg
+t2
+s0
+
+N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement_dbg.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement_dbg.app/Contents/Resources/MainMenu.nib
+t2
+s0
+
+N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/04.Movement/main.cpp
+c000000005094ED320000000000002049
+t1351937330
+s8265
+i<irrlicht.h>
+i"driverChoice.h"
+
+N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../include/irrlicht.h
+c00000000509767460000000000003649
+t1352099654
+s13897
+
+N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../MacOSX/MainMenu.nib
+c000000005099BECE00000000000000AA
+t1352253134
+s170
+
+N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug/Movement_dbg.app
+t2
+s0
+
+N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug/libIrrlicht.a
+c000000005238280E0000000003761108
+t1379411982
+s58069256
+
+N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/04.Movement.build/Objects-normal/x86_64/Movement_dbg.LinkFileList
+c0000000052382E25000000000000007C
+t1379413541
+s124
+
+N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/04.Movement.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+NDemoApp-Info.plist
+c000000005094ED1000000000000002EA
+t1351937296
+s746
+
+CBuild AST from /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/04.Movement/main.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies338ccfa565e8b741^a0c3d4a565e8b741^---0#1#0#--18"Check dependencies36"5021F95F-DC72-4680-B062-82246B795B40-
+
+CCompileC build/MacOSX.build/Debug/04.Movement.build/Objects-normal/x86_64/main.o /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/04.Movement/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401106342.669872
+e401106343.293892
+r1
+xCompileC
+xbuild/MacOSX.build/Debug/04.Movement.build/Objects-normal/x86_64/main.o
+x/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/04.Movement/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/04.Movement/main.cppaf96aba665e8b741^923c4ba765e8b741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/04.Movement/main.cpp0000000000000000^2299"CompileC build/MacOSX.build/Debug/04.Movement.build/Objects-normal/x86_64/main.o ../../../examples/04.Movement/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/04.Movement.build/Movement_dbg.hmap -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug/include -I../../../include -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/04.Movement.build/DerivedSources/x86_64 -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/04.Movement.build/DerivedSources -F/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug -DMACOSX -D_DEBUG -MMD -MT dependencies -MF /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/04.Movement.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/04.Movement.build/Objects-normal/x86_64/main.dia -c /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/04.Movement/main.cpp -o /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/04.Movement.build/Objects-normal/x86_64/main.o36"8C64DAEA-9438-47F6-869B-FE0AC2C0E2AC-
+
+CLd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement_dbg.app/Contents/MacOS/Movement_dbg normal x86_64
+s401106343.300905
+e401106343.993183
+r1
+xLd
+x/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement_dbg.app/Contents/MacOS/Movement_dbg
+xnormal
+xx86_64
+old: warning: direct access in ___cxx_global_var_init to global weak symbol irr::core::string<char, irr::core::irrAllocator<char> >::~string() means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Link /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement_dbg.app/Contents/MacOS/Movement_dbg57254da765e8b741^6440fea765e8b741^-302"ld: warning: direct access in ___cxx_global_var_init to global weak symbol irr::core::string<char, irr::core::irrAllocator<char> >::~string() means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.1(21%IDEActivityLogMessage2@288"Direct access in ___cxx_global_var_init to global weak symbol irr::core::string<char, irr::core::irrAllocator<char> >::~string() means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-401106343#0#302#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#0#--955"Ld ../../../bin/MacOSX/Movement_dbg.app/Contents/MacOS/Movement_dbg normal x86_64    cd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug -F/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug -filelist /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/04.Movement.build/Objects-normal/x86_64/Movement_dbg.LinkFileList -mmacosx-version-min=10.8 -framework Foundation -framework AppKit -lIrrlicht -framework Cocoa -framework OpenGL -framework Carbon -framework IOKit -o /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement_dbg.app/Contents/MacOS/Movement_dbg36"414F9E75-84C1-4BF0-8800-58691D7314E7-
+
+CProcessInfoPlistFile /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement_dbg.app/Contents/Info.plist DemoApp-Info.plist
+s401106341.832874
+e401106341.846748
+r1
+xProcessInfoPlistFile
+x/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement_dbg.app/Contents/Info.plist
+xDemoApp-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection26"Process DemoApp-Info.plistad4bd5a565e8b741^80d2d8a565e8b741^-203"warning: invalid character '_' in Bundle Identifier at column 21. This string must be a uniform type identifier (UTI) that contains only alphanumeric (A-Z,a-z,0-9), hyphen (-), and period (.) characters.1(21%IDEActivityLogMessage2@194"invalid character '_' in Bundle Identifier at column 21. This string must be a uniform type identifier (UTI) that contains only alphanumeric (A-Z,a-z,0-9), hyphen (-), and period (.) characters.102"Invalid character '_' in Bundle Identifier at column 21. This string must be a uniform type identifier401106341#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Info.plist Utility Warning--0#0#0#-19%DVTDocumentLocation4@86"file://localhost/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/DemoApp-Info.plist0000000000000000^472"ProcessInfoPlistFile ../../../bin/MacOSX/Movement_dbg.app/Contents/Info.plist DemoApp-Info.plist    cd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX    builtin-infoPlistUtility DemoApp-Info.plist -genpkginfo /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement_dbg.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement_dbg.app/Contents/Info.plist36"0EAB0911-55A5-4511-8D02-CFC81EBCFB76-
+
+CStripNIB /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../MacOSX/MainMenu.nib
+s401106341.876801
+e401106342.661573
+r1
+xStripNIB
+x/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../MacOSX/MainMenu.nib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Processing /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../MacOSX/MainMenu.nibb285e0a565e8b741^e868a9a665e8b741^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../MacOSX/MainMenu.nib/0000000000000000^483"StripNIB ../MacOSX/MainMenu.nib    cd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --strip /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement_dbg.app/Contents/Resources/MainMenu.nib --output-format human-readable-text /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../MacOSX/MainMenu.nib36"75A121A5-E1C4-406F-88C7-0FDFEE390700-
+
+CSymLink /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug/Movement_dbg.app /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement_dbg.app
+s401106341.832881
+e401106341.868681
+r1
+xSymLink
+x/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug/Movement_dbg.app
+x/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement_dbg.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Process /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug/Movement_dbg.appdf53d5a565e8b741^0f47dfa565e8b741^---0#0#0#--319"SymLink build/Debug/Movement_dbg.app ../../../bin/MacOSX/Movement_dbg.app    cd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX    /bin/ln -sf /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement_dbg.app /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug/Movement_dbg.app36"E2034F36-4FC9-4B20-B177-54BCB01A95E8-
+
+CTouch /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement_dbg.app
+s401106344.020695
+e401106344.028944
+r1
+xTouch
+x/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement_dbg.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Touch /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement_dbg.appd19005a865e8b741^446907a865e8b741^---0#0#0#--213"Touch ../../../bin/MacOSX/Movement_dbg.app    cd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX    /usr/bin/touch -c /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement_dbg.app36"B92D7AE7-126E-478B-9B68-0D1C2E2D30E6-
+
