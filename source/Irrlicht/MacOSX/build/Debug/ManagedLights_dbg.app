@@ -1,0 +1,1 @@
+/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/ManagedLights_dbg.app

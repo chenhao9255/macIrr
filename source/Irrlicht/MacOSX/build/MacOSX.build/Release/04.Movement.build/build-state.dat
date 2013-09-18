@@ -1,0 +1,173 @@
+T04.Movement
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement.app/Contents/Info.plist DemoApp-Info.plist
+cSymLink /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Release/Movement.app /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement.app
+cStripNIB /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../MacOSX/MainMenu.nib
+cCompileC build/MacOSX.build/Release/04.Movement.build/Objects-normal/x86_64/main.o /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/04.Movement/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000005130312F00000000000000AA
+t1362112815
+s170
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c0000000051A3493D00000000000069F0
+t1369655613
+s27120
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c0000000051A3493D0000000000006730
+t1369655613
+s26416
+
+N/System/Library/Frameworks/IOKit.framework/IOKit
+c0000000051A349450000000000130950
+t1369655621
+s1247568
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c0000000051A34949000000000002DAD0
+t1369655625
+s187088
+
+N/Users/chenhao/Work/irrlicht/include/driverChoice.h
+c0000000052382DF90000000000000501
+t1379413497
+s1281
+
+N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement.app
+t2
+s0
+
+N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement.app/Contents/Info.plist
+t2
+s0
+
+N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement.app/Contents/MacOS/Movement
+t2
+s0
+
+N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement.app/Contents/Resources/MainMenu.nib
+t2
+s0
+
+N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/04.Movement/main.cpp
+c00000000523931AE00000000000021BC
+t1379479982
+s8636
+i<irrlicht.h>
+i"driverChoice.h"
+
+N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../include/irrlicht.h
+c00000000509767460000000000003649
+t1352099654
+s13897
+
+N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../MacOSX/MainMenu.nib
+c000000005099BECE00000000000000AA
+t1352253134
+s170
+
+N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Release/04.Movement.build/Objects-normal/x86_64/Movement.LinkFileList
+c00000000523931E9000000000000007E
+t1379480041
+s126
+
+N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Release/04.Movement.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Release/Movement.app
+t2
+s0
+
+N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Release/libIrrlicht.a
+c00000000523931E90000000000B33940
+t1379480041
+s11745600
+
+NDemoApp-Info.plist
+c000000005094ED1000000000000002EA
+t1351937296
+s746
+
+CBuild AST from /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/04.Movement/main.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesf4361a6969e9b741^cf9f1a6969e9b741^---0#1#0#--18"Check dependencies36"9780957B-7B71-4BDB-8858-0088D0D98771-
+
+CCompileC build/MacOSX.build/Release/04.Movement.build/Objects-normal/x86_64/main.o /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/04.Movement/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401172842.390158
+e401172843.087741
+r0
+xCompileC
+xbuild/MacOSX.build/Release/04.Movement.build/Objects-normal/x86_64/main.o
+x/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/04.Movement/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/04.Movement/main.cpp:107:9: error: expected expression
+o    if (<#condition#>) {
+o        ^
+o/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/04.Movement/main.cpp:107:10: error: expected expression
+o    if (<#condition#>) {
+o         ^
+o/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/04.Movement/main.cpp:108:9: error: expected expression
+o        <#statements#>
+o        ^
+o/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/04.Movement/main.cpp:108:10: error: expected expression
+o        <#statements#>
+o         ^
+o4 errors generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/04.Movement/main.cpp0c01646a69e9b741^4771166b69e9b741^-660"/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/04.Movement/main.cpp:107:9: error: expected expression    if (<#condition#>) {        ^/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/04.Movement/main.cpp:107:10: error: expected expression    if (<#condition#>) {         ^/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/04.Movement/main.cpp:108:9: error: expected expression        <#statements#>        ^/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/04.Movement/main.cpp:108:10: error: expected expression        <#statements#>         ^4 errors generated.4(36%IDEClangDiagnosticActivityLogMessage2@19"Expected expression-401172843#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@74"file://localhost/Users/chenhao/Work/irrlicht/examples/04.Movement/main.cpp0000000000000000^106#8#106#8#3592#0#11"Parse Issue--2@19"Expected expression-401172843#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@74"file://localhost/Users/chenhao/Work/irrlicht/examples/04.Movement/main.cpp0000000000000000^106#9#106#9#3593#0#11"Parse Issue--2@19"Expected expression-401172843#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@74"file://localhost/Users/chenhao/Work/irrlicht/examples/04.Movement/main.cpp0000000000000000^107#8#107#8#3618#0#11"Parse Issue--2@19"Expected expression-401172843#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@74"file://localhost/Users/chenhao/Work/irrlicht/examples/04.Movement/main.cpp0000000000000000^107#9#107#9#3619#0#11"Parse Issue--0#0#0#-19%DVTDocumentLocation4@106"file://localhost/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/04.Movement/main.cpp0000000000000000^2318"CompileC build/MacOSX.build/Release/04.Movement.build/Objects-normal/x86_64/main.o ../../../examples/04.Movement/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -mdynamic-no-pic -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Release/04.Movement.build/Movement.hmap -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Release/include -I../../../include -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Release/04.Movement.build/DerivedSources/x86_64 -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Release/04.Movement.build/DerivedSources -F/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Release -DMACOSX -MMD -MT dependencies -MF /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Release/04.Movement.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Release/04.Movement.build/Objects-normal/x86_64/main.dia -c /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/04.Movement/main.cpp -o /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Release/04.Movement.build/Objects-normal/x86_64/main.o36"FF46FD37-E60A-4DB3-A2E9-7D0B605015D7-
+
+CLd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement.app/Contents/MacOS/Movement normal x86_64
+r0
+
+CProcessInfoPlistFile /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement.app/Contents/Info.plist DemoApp-Info.plist
+s401172841.106769
+e401172841.111003
+r1
+xProcessInfoPlistFile
+x/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement.app/Contents/Info.plist
+xDemoApp-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection26"Process DemoApp-Info.plistc1731b6969e9b741^766c1c6969e9b741^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/DemoApp-Info.plist0000000000000000^460"ProcessInfoPlistFile ../../../bin/MacOSX/Movement.app/Contents/Info.plist DemoApp-Info.plist    cd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX    builtin-infoPlistUtility DemoApp-Info.plist -genpkginfo /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement.app/Contents/Info.plist36"7B068AA3-AC85-4814-9419-83519D341B63-
+
+CSetMode a+rwx /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement.app
+r0
+
+CSetOwnerAndGroup chenhao:staff /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement.app
+r0
+
+CStrip /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement.app/Contents/MacOS/Movement
+r0
+
+CStripNIB /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../MacOSX/MainMenu.nib
+s401172841.125213
+e401172842.381546
+r1
+xStripNIB
+x/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../MacOSX/MainMenu.nib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Processing /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../MacOSX/MainMenu.nib4b21206969e9b741^3b70626a69e9b741^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../MacOSX/MainMenu.nib/0000000000000000^479"StripNIB ../MacOSX/MainMenu.nib    cd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --strip /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement.app/Contents/Resources/MainMenu.nib --output-format human-readable-text /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../MacOSX/MainMenu.nib36"956BC50B-3AD4-4235-A064-008CB239F456-
+
+CSymLink /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Release/Movement.app /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement.app
+s401172841.107448
+e401172841.117123
+r1
+xSymLink
+x/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Release/Movement.app
+x/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Process /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Release/Movement.app68931b6969e9b741^40fb1d6969e9b741^---0#0#0#--307"SymLink build/Release/Movement.app ../../../bin/MacOSX/Movement.app    cd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX    /bin/ln -sf /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement.app /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Release/Movement.app36"0A814994-332E-4091-8B6C-935E00F06AAB-
+
+CTouch /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement.app
+r0
+

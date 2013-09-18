@@ -1,0 +1,166 @@
+T20.ManagedLights
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/ManagedLights_dbg.app/Contents/Info.plist DemoApp-Info.plist
+cSymLink /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug/ManagedLights_dbg.app /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/ManagedLights_dbg.app
+cStripNIB /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../MacOSX/MainMenu.nib
+cCompileC build/MacOSX.build/Debug/20.ManagedLights.build/Objects-normal/x86_64/main.o /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/20.ManagedLights/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/ManagedLights_dbg.app/Contents/MacOS/ManagedLights_dbg normal x86_64
+cTouch /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/ManagedLights_dbg.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000005130312F00000000000000AA
+t1362112815
+s170
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c0000000051A3493D00000000000069F0
+t1369655613
+s27120
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c0000000051A3493D0000000000006730
+t1369655613
+s26416
+
+N/System/Library/Frameworks/IOKit.framework/IOKit
+c0000000051A349450000000000130950
+t1369655621
+s1247568
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c0000000051A34949000000000002DAD0
+t1369655625
+s187088
+
+N/Users/chenhao/Work/irrlicht/include/driverChoice.h
+c0000000052382DF90000000000000501
+t1379413497
+s1281
+
+N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/ManagedLights_dbg.app
+t2
+s0
+
+N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/ManagedLights_dbg.app/Contents/Info.plist
+t2
+s0
+
+N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/ManagedLights_dbg.app/Contents/MacOS/ManagedLights_dbg
+t2
+s0
+
+N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/ManagedLights_dbg.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/ManagedLights_dbg.app/Contents/Resources/MainMenu.nib
+t2
+s0
+
+N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/20.ManagedLights/main.cpp
+c00000000523933D3000000000000373C
+t1379480531
+s14140
+i<irrlicht.h>
+i"driverChoice.h"
+
+N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../include/irrlicht.h
+c00000000509767460000000000003649
+t1352099654
+s13897
+
+N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../MacOSX/MainMenu.nib
+c000000005099BECE00000000000000AA
+t1352253134
+s170
+
+N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug/ManagedLights_dbg.app
+t2
+s0
+
+N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug/libIrrlicht.a
+c000000005239221E0000000003761108
+t1379475998
+s58069256
+
+N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/20.ManagedLights.build/Objects-normal/x86_64/ManagedLights_dbg.LinkFileList
+c000000005239344D0000000000000081
+t1379480653
+s129
+
+N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/20.ManagedLights.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+NDemoApp-Info.plist
+c000000005094ED1000000000000002EA
+t1351937296
+s746
+
+CBuild AST from /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/20.ManagedLights/main.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesba812acd6be9b741^280b2bcd6be9b741^---0#1#0#--18"Check dependencies36"8388FA0E-2773-4B0D-A7C6-FD55F871530B-
+
+CCompileC build/MacOSX.build/Debug/20.ManagedLights.build/Objects-normal/x86_64/main.o /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/20.ManagedLights/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401173454.014294
+e401173455.174736
+r1
+xCompileC
+xbuild/MacOSX.build/Debug/20.ManagedLights.build/Objects-normal/x86_64/main.o
+x/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/20.ManagedLights/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/20.ManagedLights/main.cpp35d103ce6be9b741^a6ba2ccf6be9b741^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/20.ManagedLights/main.cpp0000000000000000^2349"CompileC build/MacOSX.build/Debug/20.ManagedLights.build/Objects-normal/x86_64/main.o ../../../examples/20.ManagedLights/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/20.ManagedLights.build/ManagedLights_dbg.hmap -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug/include -I../../../include -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/20.ManagedLights.build/DerivedSources/x86_64 -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/20.ManagedLights.build/DerivedSources -F/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug -DMACOSX -D_DEBUG -MMD -MT dependencies -MF /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/20.ManagedLights.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/20.ManagedLights.build/Objects-normal/x86_64/main.dia -c /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/20.ManagedLights/main.cpp -o /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/20.ManagedLights.build/Objects-normal/x86_64/main.o36"059F0C0F-0A62-4404-8B19-2178CCDB40E5-
+
+CLd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/ManagedLights_dbg.app/Contents/MacOS/ManagedLights_dbg normal x86_64
+s401173455.181399
+e401173456.000878
+r1
+xLd
+x/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/ManagedLights_dbg.app/Contents/MacOS/ManagedLights_dbg
+xnormal
+xx86_64
+old: warning: direct access in ___cxx_global_var_init to global weak symbol irr::core::string<char, irr::core::irrAllocator<char> >::~string() means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Link /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/ManagedLights_dbg.app/Contents/MacOS/ManagedLights_dbgb08f2ecf6be9b741^2d3e01d06be9b741^-302"ld: warning: direct access in ___cxx_global_var_init to global weak symbol irr::core::string<char, irr::core::irrAllocator<char> >::~string() means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.1(21%IDEActivityLogMessage2@288"Direct access in ___cxx_global_var_init to global weak symbol irr::core::string<char, irr::core::irrAllocator<char> >::~string() means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-401173455#0#302#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#0#--985"Ld ../../../bin/MacOSX/ManagedLights_dbg.app/Contents/MacOS/ManagedLights_dbg normal x86_64    cd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug -F/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug -filelist /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/20.ManagedLights.build/Objects-normal/x86_64/ManagedLights_dbg.LinkFileList -mmacosx-version-min=10.8 -framework Foundation -framework AppKit -lIrrlicht -framework Cocoa -framework OpenGL -framework Carbon -framework IOKit -o /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/ManagedLights_dbg.app/Contents/MacOS/ManagedLights_dbg36"2FBB591E-5D4B-4AE4-A153-AC9AD8665244-
+
+CProcessInfoPlistFile /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/ManagedLights_dbg.app/Contents/Info.plist DemoApp-Info.plist
+s401173453.175191
+e401173453.183927
+r1
+xProcessInfoPlistFile
+x/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/ManagedLights_dbg.app/Contents/Info.plist
+xDemoApp-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection26"Process DemoApp-Info.plist81042dcd6be9b741^2f302fcd6be9b741^-203"warning: invalid character '_' in Bundle Identifier at column 26. This string must be a uniform type identifier (UTI) that contains only alphanumeric (A-Z,a-z,0-9), hyphen (-), and period (.) characters.1(21%IDEActivityLogMessage2@194"invalid character '_' in Bundle Identifier at column 26. This string must be a uniform type identifier (UTI) that contains only alphanumeric (A-Z,a-z,0-9), hyphen (-), and period (.) characters.102"Invalid character '_' in Bundle Identifier at column 26. This string must be a uniform type identifier401173453#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Info.plist Utility Warning--0#0#0#-19%DVTDocumentLocation4@86"file://localhost/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/DemoApp-Info.plist0000000000000000^487"ProcessInfoPlistFile ../../../bin/MacOSX/ManagedLights_dbg.app/Contents/Info.plist DemoApp-Info.plist    cd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX    builtin-infoPlistUtility DemoApp-Info.plist -genpkginfo /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/ManagedLights_dbg.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/ManagedLights_dbg.app/Contents/Info.plist36"4E1D05BE-0FD6-4E3A-AC07-C5A9BDF80CC3-
+
+CStripNIB /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../MacOSX/MainMenu.nib
+s401173453.197828
+e401173453.989504
+r1
+xStripNIB
+x/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../MacOSX/MainMenu.nib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Processing /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../MacOSX/MainMenu.nibdcbb32cd6be9b741^8f52fdcd6be9b741^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../MacOSX/MainMenu.nib/0000000000000000^488"StripNIB ../MacOSX/MainMenu.nib    cd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --strip /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/ManagedLights_dbg.app/Contents/Resources/MainMenu.nib --output-format human-readable-text /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../MacOSX/MainMenu.nib36"8006D188-BDB1-4A01-BED1-FD9E09B42DE6-
+
+CSymLink /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug/ManagedLights_dbg.app /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/ManagedLights_dbg.app
+s401173453.175196
+e401173453.189928
+r1
+xSymLink
+x/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug/ManagedLights_dbg.app
+x/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/ManagedLights_dbg.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Process /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug/ManagedLights_dbg.app410b2dcd6be9b741^03b130cd6be9b741^---0#0#0#--339"SymLink build/Debug/ManagedLights_dbg.app ../../../bin/MacOSX/ManagedLights_dbg.app    cd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX    /bin/ln -sf /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/ManagedLights_dbg.app /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug/ManagedLights_dbg.app36"D526C9D9-A1DE-4C57-8516-FF84161656BD-
+
+CTouch /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/ManagedLights_dbg.app
+s401173456.008630
+e401173456.021378
+r1
+xTouch
+x/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/ManagedLights_dbg.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Touch /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/ManagedLights_dbg.app914502d06be9b741^c07905d06be9b741^---0#0#0#--223"Touch ../../../bin/MacOSX/ManagedLights_dbg.app    cd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX    /usr/bin/touch -c /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/ManagedLights_dbg.app36"74919EB5-A709-4EA7-908A-2ACE8721AA99-
+
