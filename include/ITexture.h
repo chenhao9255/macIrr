@@ -2,6 +2,8 @@
 // This file is part of the "Irrlicht Engine".
 // For conditions of distribution and use, see copyright notice in irrlicht.h
 
+//texture就是封装了图片
+
 #ifndef __I_TEXTURE_H_INCLUDED__
 #define __I_TEXTURE_H_INCLUDED__
 

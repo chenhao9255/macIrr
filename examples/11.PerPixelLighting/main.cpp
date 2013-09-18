@@ -196,7 +196,7 @@ int main()
 	scene::ISceneManager* smgr = device->getSceneManager();
 	gui::IGUIEnvironment* env = device->getGUIEnvironment();
 
-	driver->setTextureCreationFlag(video::ETCF_ALWAYS_32_BIT, true);
+	driver->setTextureCreationFlag(video::ETCF_ALWAYS_32_BIT, false);
 
 	// add irrlicht logo
 	env->addImage(driver->getTexture("../../media/irrlichtlogo3.png"),
@@ -236,7 +236,7 @@ int main()
 	{
 		// The Room mesh doesn't have proper Texture Mapping on the
 		// floor, so we can recreate them on runtime
-		smgr->getMeshManipulator()->makePlanarTextureMapping(
+    smgr->getMeshManipulator()->makePlanarTextureMapping(
 				roomMesh->getMesh(0), 0.003f);
 
 		/*
@@ -369,7 +369,8 @@ int main()
 		video::SColorf(0.5f, 1.0f, 0.5f, 0.0f), 800.0f);
 
 	light1->setDebugDataVisible ( scene::EDS_BBOX );
-
+  
+  //light1->setVisible(false);
 
 	// add fly circle animator to light 1
 	scene::ISceneNodeAnimator* anim =
@@ -409,6 +410,8 @@ int main()
 			0.001f, core::vector3df(0.2f, 0.9f, 0.f));
 	light2->addAnimator(anim);
 	anim->drop();
+  
+  //light2->setVisible(false);
 
 	// attach billboard to light
 	bill = smgr->addBillboardSceneNode(light2, core::dimension2d<f32>(120, 120));

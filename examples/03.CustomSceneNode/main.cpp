@@ -68,8 +68,8 @@ public:
 	CSampleSceneNode(scene::ISceneNode* parent, scene::ISceneManager* mgr, s32 id)
 		: scene::ISceneNode(parent, mgr, id)
 	{
-		Material.Wireframe = false;
-		Material.Lighting = false;
+		Material.Wireframe = true;
+		Material.Lighting = true;
 
 		Vertices[0] = video::S3DVertex(0,0,10, 1,1,0,
 				video::SColor(255,0,255,255), 0, 1);

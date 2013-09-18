@@ -2016,7 +2016,7 @@
 		4CFA7C5B0A88742900B03626 /* IShadowVolumeSceneNode.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = IShadowVolumeSceneNode.h; sourceTree = "<group>"; };
 		4CFA7C5C0A88742900B03626 /* ITerrainSceneNode.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ITerrainSceneNode.h; sourceTree = "<group>"; };
 		4CFA7C5D0A88742900B03626 /* ITextSceneNode.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ITextSceneNode.h; sourceTree = "<group>"; };
-		4CFA7C5E0A88742900B03626 /* ITexture.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ITexture.h; sourceTree = "<group>"; };
+		4CFA7C5E0A88742900B03626 /* ITexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITexture.h; sourceTree = "<group>"; };
 		4CFA7C5F0A88742900B03626 /* ITimer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ITimer.h; sourceTree = "<group>"; };
 		4CFA7C600A88742900B03626 /* ITriangleSelector.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ITriangleSelector.h; sourceTree = "<group>"; };
 		4CFA7C620A88742900B03626 /* IVideoDriver.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = IVideoDriver.h; sourceTree = "<group>"; };

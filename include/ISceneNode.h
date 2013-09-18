@@ -416,7 +416,8 @@ namespace scene
 			return 0;
 		}
 
-
+    //Every material has many properities, such as fog, light, shadding. And each one can be affected by them. So we have to set a flag to determine whether these properities should be affected by a certain kind of factor.
+    
 		//! Sets all material flags at once to a new value.
 		/** Useful, for example, if you want the whole mesh to be
 		affected by light.

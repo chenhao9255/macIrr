@@ -102,6 +102,25 @@ int main()
 		node->setMaterialFlag(video::EMF_LIGHTING, false);
 	}
 
+  
+  
+  
+  scene::ILightSceneNode* light1 =
+  smgr->addLightSceneNode(0, core::vector3df(0,0,0),
+                          video::SColorf(0.5f, 1.0f, 0.5f, 0.0f), 800.0f);
+  
+	light1->setDebugDataVisible ( scene::EDS_BBOX );
+  
+  
+	// add fly circle animator to light 1
+	scene::ISceneNodeAnimator* anim =
+  smgr->createFlyCircleAnimator (core::vector3df(50,300,0),190.0f, -0.003f);
+	light1->addAnimator(anim);
+	anim->drop();
+  
+  
+  
+  
 	/*
 	Now we create another node, movable using a scene node animator. Scene
 	node animators modify scene nodes and can be attached to any scene node
@@ -111,62 +130,62 @@ int main()
 	example. We create a cube scene node and attach a 'fly circle' scene
 	node animator to it, letting this node fly around our sphere scene node.
 	*/
-	scene::ISceneNode* n = smgr->addCubeSceneNode();
+//	scene::ISceneNode* n = smgr->addCubeSceneNode();
+//
+//	if (n)
+//	{
+//		n->setMaterialTexture(0, driver->getTexture("../../media/t351sml.jpg"));
+//		n->setMaterialFlag(video::EMF_LIGHTING, false);
+//		scene::ISceneNodeAnimator* anim =
+//			smgr->createFlyCircleAnimator(core::vector3df(0,0,30), 20.0f);
+//		if (anim)
+//		{
+//			n->addAnimator(anim);
+//			anim->drop();
+//		}
+//	}
 
-	if (n)
-	{
-		n->setMaterialTexture(0, driver->getTexture("../../media/t351sml.jpg"));
-		n->setMaterialFlag(video::EMF_LIGHTING, false);
-		scene::ISceneNodeAnimator* anim =
-			smgr->createFlyCircleAnimator(core::vector3df(0,0,30), 20.0f);
-		if (anim)
-		{
-			n->addAnimator(anim);
-			anim->drop();
-		}
-	}
-
-	/*
+/*
 	The last scene node we add to show possibilities of scene node animators is
 	a b3d model, which uses a 'fly straight' animator to run between to points.
 	*/
-	scene::IAnimatedMeshSceneNode* anms =
-		smgr->addAnimatedMeshSceneNode(smgr->getMesh("../../media/ninja.b3d"));
-
-	if (anms)
-	{
-		scene::ISceneNodeAnimator* anim =
-			smgr->createFlyStraightAnimator(core::vector3df(100,0,60),
-			core::vector3df(-100,0,60), 3500, true);
-		if (anim)
-		{
-			anms->addAnimator(anim);
-			anim->drop();
-		}
-
-		/*
-		To make the model look right we disable lighting, set the
-		frames between which the animation should loop, rotate the
-		model around 180 degrees, and adjust the animation speed and
-		the texture. To set the right animation (frames and speed), we
-		would also be able to just call
-		"anms->setMD2Animation(scene::EMAT_RUN)" for the 'run'
-		animation instead of "setFrameLoop" and "setAnimationSpeed",
-		but this only works with MD2 animations, and so you know how to
-		start other animations. But a good advice is to not use
-		hardcoded frame-numbers...
-		*/
-		anms->setMaterialFlag(video::EMF_LIGHTING, false);
-
-		anms->setFrameLoop(0, 13);
-		anms->setAnimationSpeed(15);
-//		anms->setMD2Animation(scene::EMAT_RUN);
-
-		anms->setScale(core::vector3df(2.f,2.f,2.f));
-		anms->setRotation(core::vector3df(0,-90,0));
-//		anms->setMaterialTexture(0, driver->getTexture("../../media/sydney.bmp"));
-
-	}
+//	scene::IAnimatedMeshSceneNode* anms =
+//		smgr->addAnimatedMeshSceneNode(smgr->getMesh("../../media/ninja.b3d"));
+//
+//	if (anms)
+//	{
+//		scene::ISceneNodeAnimator* anim =
+//			smgr->createFlyStraightAnimator(core::vector3df(100,0,60),
+//			core::vector3df(-100,0,60), 3500, true);
+//		if (anim)
+//		{
+//			anms->addAnimator(anim);
+//			anim->drop();
+//		}
+//
+//		/*
+//		To make the model look right we disable lighting, set the
+//		frames between which the animation should loop, rotate the
+//		model around 180 degrees, and adjust the animation speed and
+//		the texture. To set the right animation (frames and speed), we
+//		would also be able to just call
+//		"anms->setMD2Animation(scene::EMAT_RUN)" for the 'run'
+//		animation instead of "setFrameLoop" and "setAnimationSpeed",
+//		but this only works with MD2 animations, and so you know how to
+//		start other animations. But a good advice is to not use
+//		hardcoded frame-numbers...
+//		*/
+//		anms->setMaterialFlag(video::EMF_LIGHTING, false);
+//
+//		anms->setFrameLoop(0, 13);
+//		anms->setAnimationSpeed(15);
+////		anms->setMD2Animation(scene::EMAT_RUN);
+//
+//		anms->setScale(core::vector3df(2.f,2.f,2.f));
+//		anms->setRotation(core::vector3df(0,-90,0));
+////		anms->setMaterialTexture(0, driver->getTexture("../../media/sydney.bmp"));
+//
+//	}
 
 
 	/*
@@ -212,6 +231,9 @@ int main()
 		sphere node around respectively. */
 		core::vector3df nodePosition = node->getPosition();
 
+    if(receiver.IsKeyDown(irr::KEY_ESCAPE))
+        device->closeDevice();
+      
 		if(receiver.IsKeyDown(irr::KEY_KEY_W))
 			nodePosition.Y += MOVEMENT_SPEED * frameDeltaTime;
 		else if(receiver.IsKeyDown(irr::KEY_KEY_S))

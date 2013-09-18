@@ -78,6 +78,8 @@ public:
 	virtual u32 getPitch() const;
 
 	//! return open gl texture name
+  //In openGL, every texture has a handler represented by GLuint.It is the name of
+  //the current texture in openGL level.
 	GLuint getOpenGLTextureName() const;
 
 	//! return whether this texture has mipmaps
@@ -131,6 +133,8 @@ protected:
 	IImage* Image;
 	IImage* MipImage;
 
+  //In openGL, every texture has a handler represented by GLuint.It is the name of
+  //the current texture in openGL level.
 	GLuint TextureName;
 	GLint InternalFormat;
 	GLenum PixelFormat;

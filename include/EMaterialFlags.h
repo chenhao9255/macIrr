@@ -10,6 +10,8 @@ namespace irr
 namespace video
 {
 
+  
+  
 	//! Material flags
 	enum E_MATERIAL_FLAG
 	{
