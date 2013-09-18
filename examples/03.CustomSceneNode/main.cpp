@@ -139,7 +139,7 @@ public:
 	irr::scene::ISceneNode::getBoundingBox() returns the bounding box of
 	this scene node, irr::scene::ISceneNode::getMaterialCount() returns the
 	amount of materials in this scene node (our tetraeder only has one
-	material), and irr::scene::ISceneNode::getMaterial() returns the
+	material), and i/Users/chenhao/Work/irrlicht/include/SExposedVideoData.hrr::scene::ISceneNode::getMaterial() returns the
 	material at an index. Because we have only one material here, we can
 	return the only one material, assuming that no one ever calls
 	getMaterial() with an index greater than 0.

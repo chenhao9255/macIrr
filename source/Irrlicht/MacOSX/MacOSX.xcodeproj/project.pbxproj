@@ -584,6 +584,7 @@
 		5DD480CB0C7DA66800728AA9 /* COpenGLExtensionHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DD480C50C7DA66800728AA9 /* COpenGLExtensionHandler.cpp */; };
 		5DD480CC0C7DA66800728AA9 /* CMD3MeshFileLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DD480C60C7DA66800728AA9 /* CMD3MeshFileLoader.cpp */; };
 		87556B4817E85E45005D404E /* COpenGLExtensionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DD480C10C7DA66800728AA9 /* COpenGLExtensionHandler.h */; };
+		87E8669317E94B4B00DCC090 /* SExposedVideoData.h in Headers */ = {isa = PBXBuildFile; fileRef = 87E8669217E94B4B00DCC090 /* SExposedVideoData.h */; };
 		95154774133CD9DA008D792F /* aabbox3d.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CFA7C0A0A88742800B03626 /* aabbox3d.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95154775133CD9DA008D792F /* CMeshBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0910B9FD0D1F64B300D46B04 /* CMeshBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95154776133CD9DA008D792F /* coreutil.h in Headers */ = {isa = PBXBuildFile; fileRef = 0910B9FE0D1F64B300D46B04 /* coreutil.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -720,7 +721,6 @@
 		951547F9133CD9DA008D792F /* SAnimatedMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CFA7C700A88742900B03626 /* SAnimatedMesh.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		951547FA133CD9DA008D792F /* SceneParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CFA7C710A88742900B03626 /* SceneParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		951547FB133CD9DA008D792F /* SColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CFA7C720A88742900B03626 /* SColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		951547FC133CD9DA008D792F /* SExposedVideoData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CFA7C730A88742900B03626 /* SExposedVideoData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		951547FD133CD9DA008D792F /* SIrrCreationParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CFA7C740A88742900B03626 /* SIrrCreationParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		951547FE133CD9DA008D792F /* SKeyMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CFA7C750A88742900B03626 /* SKeyMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		951547FF133CD9DA008D792F /* SLight.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CFA7C760A88742900B03626 /* SLight.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -2036,7 +2036,6 @@
 		4CFA7C700A88742900B03626 /* SAnimatedMesh.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SAnimatedMesh.h; sourceTree = "<group>"; };
 		4CFA7C710A88742900B03626 /* SceneParameters.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SceneParameters.h; sourceTree = "<group>"; };
 		4CFA7C720A88742900B03626 /* SColor.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SColor.h; sourceTree = "<group>"; };
-		4CFA7C730A88742900B03626 /* SExposedVideoData.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SExposedVideoData.h; sourceTree = "<group>"; };
 		4CFA7C740A88742900B03626 /* SIrrCreationParameters.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SIrrCreationParameters.h; sourceTree = "<group>"; };
 		4CFA7C750A88742900B03626 /* SKeyMap.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SKeyMap.h; sourceTree = "<group>"; };
 		4CFA7C760A88742900B03626 /* SLight.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SLight.h; sourceTree = "<group>"; };
@@ -2077,6 +2076,7 @@
 		5DD480C40C7DA66800728AA9 /* CIrrDeviceSDL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CIrrDeviceSDL.cpp; sourceTree = "<group>"; };
 		5DD480C50C7DA66800728AA9 /* COpenGLExtensionHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = COpenGLExtensionHandler.cpp; sourceTree = "<group>"; };
 		5DD480C60C7DA66800728AA9 /* CMD3MeshFileLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CMD3MeshFileLoader.cpp; sourceTree = "<group>"; };
+		87E8669217E94B4B00DCC090 /* SExposedVideoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SExposedVideoData.h; sourceTree = "<group>"; };
 		959726FD12C18FFC00BF73D3 /* IrrFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IrrFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		959726FE12C18FFC00BF73D3 /* irrFramework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "irrFramework-Info.plist"; sourceTree = "<group>"; };
 		95972B8312C19A5C00BF73D3 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
@@ -2584,6 +2584,7 @@
 		0910BA800D1F6ADA00D46B04 /* video */ = {
 			isa = PBXGroup;
 			children = (
+				87E8669217E94B4B00DCC090 /* SExposedVideoData.h */,
 				0910BA200D1F64B300D46B04 /* SMaterialLayer.h */,
 				0910BA050D1F64B300D46B04 /* EMaterialTypes.h */,
 				0910BA040D1F64B300D46B04 /* EMaterialFlags.h */,
@@ -2599,7 +2600,6 @@
 				4CFA7C630A88742900B03626 /* IVideoModeList.h */,
 				4CFA7C6F0A88742900B03626 /* S3DVertex.h */,
 				4CFA7C720A88742900B03626 /* SColor.h */,
-				4CFA7C730A88742900B03626 /* SExposedVideoData.h */,
 				4CFA7C760A88742900B03626 /* SLight.h */,
 				4CFA7C770A88742900B03626 /* SMaterial.h */,
 			);
@@ -3854,7 +3854,6 @@
 				951547F9133CD9DA008D792F /* SAnimatedMesh.h in Headers */,
 				951547FA133CD9DA008D792F /* SceneParameters.h in Headers */,
 				951547FB133CD9DA008D792F /* SColor.h in Headers */,
-				951547FC133CD9DA008D792F /* SExposedVideoData.h in Headers */,
 				951547FD133CD9DA008D792F /* SIrrCreationParameters.h in Headers */,
 				951547FE133CD9DA008D792F /* SKeyMap.h in Headers */,
 				951547FF133CD9DA008D792F /* SLight.h in Headers */,
@@ -3973,6 +3972,7 @@
 				0E2E3C5E1103B2AE002DE8D7 /* CIrrDeviceWinCE.h in Headers */,
 				95E5857812FCE2CB004946C6 /* CAnimatedMeshHalfLife.h in Headers */,
 				87556B4817E85E45005D404E /* COpenGLExtensionHandler.h in Headers */,
+				87E8669317E94B4B00DCC090 /* SExposedVideoData.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
