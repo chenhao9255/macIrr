@@ -2,8 +2,8 @@ T11.PerPixelLightning
 v5
 r1
 cCheck dependencies
-cProcessInfoPlistFile /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/PerPixelLighting_dbg.app/Contents/Info.plist DemoApp-Info.plist
 cSymLink /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug/PerPixelLighting_dbg.app /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/PerPixelLighting_dbg.app
+cProcessInfoPlistFile /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/PerPixelLighting_dbg.app/Contents/Info.plist DemoApp-Info.plist
 cStripNIB /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../MacOSX/MainMenu.nib
 cCompileC build/MacOSX.build/Debug/11.PerPixelLightning.build/Objects-normal/x86_64/main.o /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/11.PerPixelLighting/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/PerPixelLighting_dbg.app/Contents/MacOS/PerPixelLighting_dbg normal x86_64
@@ -40,7 +40,7 @@ t1379413497
 s1281
 
 N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/PerPixelLighting_dbg.app
-t1379492137
+t1379561061
 s102
 
 N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/PerPixelLighting_dbg.app/Contents/Info.plist
@@ -48,7 +48,7 @@ t1379480164
 s1136
 
 N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/PerPixelLighting_dbg.app/Contents/MacOS/PerPixelLighting_dbg
-t1379492137
+t1379561061
 s10768264
 
 N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/PerPixelLighting_dbg.app/Contents/PkgInfo
@@ -60,9 +60,9 @@ t1379480165
 s13030
 
 N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/11.PerPixelLighting/main.cpp
-c00000000523961270000000000004009
-t1379492135
-s16393
+c00000000523A73B6000000000000400B
+t1379562422
+s16395
 i<irrlicht.h>
 i"driverChoice.h"
 
@@ -996,8 +996,8 @@ t1379480164
 s133
 
 N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/11.PerPixelLightning.build/Objects-normal/x86_64/main.o
-t1379492136
-s392532
+t2
+s0
 
 NDemoApp-Info.plist
 c000000005094ED1000000000000002EA
@@ -1009,11 +1009,11 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies763862ad98e9b741^ace562ad98e9b741^---0#1#0#--18"Check dependencies36"931031BF-E20C-4B0A-84E7-2E744BDB4ABB-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesa3cea437abeab741^8d24a537abeab741^---0#1#0#--18"Check dependencies36"0DE1B763-1E35-40AF-AF53-AFBB5FC52995-
 
 CCompileC build/MacOSX.build/Debug/11.PerPixelLightning.build/Objects-normal/x86_64/main.o /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/11.PerPixelLighting/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s401184936.130294
-e401184936.733346
+s401255223.733294
+e401255224.510785
 r1
 xCompileC
 xbuild/MacOSX.build/Debug/11.PerPixelLightning.build/Objects-normal/x86_64/main.o
@@ -1022,18 +1022,18 @@ xnormal
 xx86_64
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/11.PerPixelLighting/main.cpp8c8121a898e9b741^b2bcbba898e9b741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/11.PerPixelLighting/main.cpp0000000000000000^2386"CompileC build/MacOSX.build/Debug/11.PerPixelLightning.build/Objects-normal/x86_64/main.o ../../../examples/11.PerPixelLighting/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/11.PerPixelLightning.build/PerPixelLighting_dbg.hmap -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug/include -I../../../include -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/11.PerPixelLightning.build/DerivedSources/x86_64 -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/11.PerPixelLightning.build/DerivedSources -F/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug -DMACOSX -D_DEBUG -MMD -MT dependencies -MF /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/11.PerPixelLightning.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/11.PerPixelLightning.build/Objects-normal/x86_64/main.dia -c /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/11.PerPixelLighting/main.cpp -o /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/11.PerPixelLightning.build/Objects-normal/x86_64/main.o36"7CCEFF67-A6A8-456D-AA2E-C2E5CE2ABB0B-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/11.PerPixelLighting/main.cpp9ce0bb37abeab741^46ce8238abeab741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/11.PerPixelLighting/main.cpp0000000000000000^2386"CompileC build/MacOSX.build/Debug/11.PerPixelLightning.build/Objects-normal/x86_64/main.o ../../../examples/11.PerPixelLighting/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/11.PerPixelLightning.build/PerPixelLighting_dbg.hmap -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug/include -I../../../include -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/11.PerPixelLightning.build/DerivedSources/x86_64 -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/11.PerPixelLightning.build/DerivedSources -F/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug -DMACOSX -D_DEBUG -MMD -MT dependencies -MF /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/11.PerPixelLightning.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/11.PerPixelLightning.build/Objects-normal/x86_64/main.dia -c /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/11.PerPixelLighting/main.cpp -o /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/11.PerPixelLightning.build/Objects-normal/x86_64/main.o36"600EC10C-8387-4F31-9A51-3723A40A2E60-
 
 CLd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/PerPixelLighting_dbg.app/Contents/MacOS/PerPixelLighting_dbg normal x86_64
-s401184936.740327
-e401184937.371925
+s401255224.517627
+e401255225.294005
 r1
 xLd
 x/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/PerPixelLighting_dbg.app/Contents/MacOS/PerPixelLighting_dbg
 xnormal
 xx86_64
 old: warning: direct access in ___cxx_global_var_init to global weak symbol irr::core::string<char, irr::core::irrAllocator<char> >::~string() means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection137"Link /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/PerPixelLighting_dbg.app/Contents/MacOS/PerPixelLighting_dbg8ab0bda898e9b741^8f355fa998e9b741^-302"ld: warning: direct access in ___cxx_global_var_init to global weak symbol irr::core::string<char, irr::core::irrAllocator<char> >::~string() means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.1(21%IDEActivityLogMessage2@288"Direct access in ___cxx_global_var_init to global weak symbol irr::core::string<char, irr::core::irrAllocator<char> >::~string() means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-401184937#0#302#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#0#--1004"Ld ../../../bin/MacOSX/PerPixelLighting_dbg.app/Contents/MacOS/PerPixelLighting_dbg normal x86_64    cd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug -F/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug -filelist /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/11.PerPixelLightning.build/Objects-normal/x86_64/PerPixelLighting_dbg.LinkFileList -mmacosx-version-min=10.8 -framework Foundation -framework AppKit -lIrrlicht -framework Cocoa -framework OpenGL -framework Carbon -framework IOKit -o /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/PerPixelLighting_dbg.app/Contents/MacOS/PerPixelLighting_dbg36"90C3C4EA-8EA5-47DF-AD29-F42013338BE7-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection137"Link /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/PerPixelLighting_dbg.app/Contents/MacOS/PerPixelLighting_dbgdc9e8438abeab741^69544c39abeab741^-302"ld: warning: direct access in ___cxx_global_var_init to global weak symbol irr::core::string<char, irr::core::irrAllocator<char> >::~string() means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.1(21%IDEActivityLogMessage2@288"Direct access in ___cxx_global_var_init to global weak symbol irr::core::string<char, irr::core::irrAllocator<char> >::~string() means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-401255225#0#302#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#0#--1004"Ld ../../../bin/MacOSX/PerPixelLighting_dbg.app/Contents/MacOS/PerPixelLighting_dbg normal x86_64    cd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug -F/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug -filelist /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/11.PerPixelLightning.build/Objects-normal/x86_64/PerPixelLighting_dbg.LinkFileList -mmacosx-version-min=10.8 -framework Foundation -framework AppKit -lIrrlicht -framework Cocoa -framework OpenGL -framework Carbon -framework IOKit -o /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/PerPixelLighting_dbg.app/Contents/MacOS/PerPixelLighting_dbg36"0109D713-3EB1-458E-8A54-BD3F818C9FE8-
 
 CProcessInfoPlistFile /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/PerPixelLighting_dbg.app/Contents/Info.plist DemoApp-Info.plist
 s401172964.531134
@@ -1062,10 +1062,10 @@ x/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/PerPixe
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Process /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug/PerPixelLighting_dbg.appb80488e469e9b741^a2268ae469e9b741^---0#0#0#--351"SymLink build/Debug/PerPixelLighting_dbg.app ../../../bin/MacOSX/PerPixelLighting_dbg.app    cd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX    /bin/ln -sf /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/PerPixelLighting_dbg.app /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug/PerPixelLighting_dbg.app36"2B689F0D-F145-440C-87A6-E236A7F0997C-
 
 CTouch /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/PerPixelLighting_dbg.app
-s401184937.379960
-e401184937.393924
+s401255225.301575
+e401255225.308294
 r1
 xTouch
 x/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/PerPixelLighting_dbg.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Touch /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/PerPixelLighting_dbg.app255b61a998e9b741^1bda64a998e9b741^---0#0#0#--229"Touch ../../../bin/MacOSX/PerPixelLighting_dbg.app    cd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX    /usr/bin/touch -c /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/PerPixelLighting_dbg.app36"5F0521F1-A392-4577-BECE-AFE194447448-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Touch /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/PerPixelLighting_dbg.appc4424d39abeab741^d9965939abeab741^---0#0#0#--229"Touch ../../../bin/MacOSX/PerPixelLighting_dbg.app    cd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX    /usr/bin/touch -c /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/PerPixelLighting_dbg.app36"7EFA409A-90A9-432C-8ED9-80F2DB2361DA-
 

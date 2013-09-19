@@ -2,8 +2,8 @@ T01.HelloWorld
 v5
 r1
 cCheck dependencies
-cProcessInfoPlistFile /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/HelloWorld_dbg.app/Contents/Info.plist DemoApp-Info.plist
 cSymLink /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug/HelloWorld_dbg.app /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/HelloWorld_dbg.app
+cProcessInfoPlistFile /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/HelloWorld_dbg.app/Contents/Info.plist DemoApp-Info.plist
 cStripNIB /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../MacOSX/MainMenu.nib
 cCompileC build/MacOSX.build/Debug/01.HelloWorld.build/Objects-normal/x86_64/main.o /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/01.HelloWorld/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/HelloWorld_dbg.app/Contents/MacOS/HelloWorld_dbg normal x86_64
@@ -34,8 +34,13 @@ c0000000051A34949000000000002DAD0
 t1369655625
 s187088
 
+N/Users/chenhao/Work/irrlicht/include/driverChoice.h
+c0000000052382DF90000000000000501
+t1379413497
+s1281
+
 N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/HelloWorld_dbg.app
-t1379413037
+t1379558002
 s102
 
 N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/HelloWorld_dbg.app/Contents/Info.plist
@@ -43,8 +48,8 @@ t1379412563
 s1124
 
 N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/HelloWorld_dbg.app/Contents/MacOS/HelloWorld_dbg
-t1379413037
-s10753284
+t1379558002
+s10811704
 
 N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/HelloWorld_dbg.app/Contents/PkgInfo
 t1379412563
@@ -55,10 +60,11 @@ t1379412563
 s13030
 
 N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/01.HelloWorld/main.cpp
-c000000005094ED3400000000000023DB
-t1351937332
+c00000000523A62C700000000000023DB
+t1379558087
 s9179
 i<irrlicht.h>
+i"driverChoice.h"
 
 N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../include/CDynamicMeshBuffer.h
 c000000005094ED200000000000000996
@@ -126,9 +132,9 @@ t1351937314
 s938
 
 N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../include/EMaterialFlags.h
-c000000005094ED200000000000000B1F
-t1351937312
-s2847
+c0000000052395F180000000000000B27
+t1379491608
+s2855
 
 N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../include/EMaterialTypes.h
 c000000005094ED22000000000000261F
@@ -601,9 +607,9 @@ t1351937312
 s88954
 
 N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../include/ISceneNode.h
-c000000005094ED22000000000000677B
-t1351937314
-s26491
+c0000000052395F16000000000000685F
+t1379491606
+s26719
 
 N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../include/ISceneNodeAnimator.h
 c000000005094ED200000000000000942
@@ -666,9 +672,9 @@ t1351937312
 s894
 
 N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../include/ITexture.h
-c000000005094ED20000000000000235E
-t1351937312
-s9054
+c00000000523952720000000000002380
+t1379488370
+s9088
 
 N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../include/ITimer.h
 c000000005094ED200000000000000C2A
@@ -975,8 +981,8 @@ t3
 s90
 
 N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug/libIrrlicht.a
-c000000005239221E0000000003761108
-t1379475998
+c0000000052395F3D0000000003761108
+t1379491645
 s58069256
 
 N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/01.HelloWorld.build/Objects-normal/i386/HelloWorld_dbg
@@ -1002,8 +1008,8 @@ t1379412563
 s126
 
 N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/01.HelloWorld.build/Objects-normal/x86_64/main.o
-t1379412564
-s245640
+t1379558002
+s508596
 
 NDemoApp-Info.plist
 c000000005094ED1000000000000002EA
@@ -1015,7 +1021,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesabea6d5362e9b741^e7546e5362e9b741^---0#1#0#--18"Check dependencies36"4C08A082-09AB-4E79-A92E-86A720A40F7F-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies548bc0479aeab741^92cac0479aeab741^---0#1#0#--18"Check dependencies36"4B9C1646-1D0D-437E-9F5E-8299C567FE35-
 
 CCompileC build/MacOSX.build/Debug/01.HelloWorld.build/Objects-normal/i386/main.o /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/01.HelloWorld/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s401105363.847227
@@ -1031,8 +1037,8 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/01.HelloWorld/main.cppcd06d9d361e8b741^964046d461e8b741^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/01.HelloWorld/main.cpp0000000000000000^2305"CompileC build/MacOSX.build/Debug/01.HelloWorld.build/Objects-normal/i386/main.o ../../../examples/01.HelloWorld/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/01.HelloWorld.build/HelloWorld_dbg.hmap -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug/include -I../../../include -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/01.HelloWorld.build/DerivedSources/i386 -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/01.HelloWorld.build/DerivedSources -F/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug -DMACOSX -D_DEBUG -MMD -MT dependencies -MF /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/01.HelloWorld.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/01.HelloWorld.build/Objects-normal/i386/main.dia -c /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/01.HelloWorld/main.cpp -o /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/01.HelloWorld.build/Objects-normal/i386/main.o36"8170281C-BB60-46D6-85B3-20C9BF7C4E24-
 
 CCompileC build/MacOSX.build/Debug/01.HelloWorld.build/Objects-normal/x86_64/main.o /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/01.HelloWorld/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s401105363.847222
-e401105364.259282
+s401250887.774609
+e401250888.113541
 r1
 xCompileC
 xbuild/MacOSX.build/Debug/01.HelloWorld.build/Objects-normal/x86_64/main.o
@@ -1041,21 +1047,21 @@ xnormal
 xx86_64
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/01.HelloWorld/main.cppab06d9d361e8b741^5f6042d461e8b741^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/01.HelloWorld/main.cpp0000000000000000^2319"CompileC build/MacOSX.build/Debug/01.HelloWorld.build/Objects-normal/x86_64/main.o ../../../examples/01.HelloWorld/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/01.HelloWorld.build/HelloWorld_dbg.hmap -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug/include -I../../../include -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/01.HelloWorld.build/DerivedSources/x86_64 -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/01.HelloWorld.build/DerivedSources -F/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug -DMACOSX -D_DEBUG -MMD -MT dependencies -MF /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/01.HelloWorld.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/01.HelloWorld.build/Objects-normal/x86_64/main.dia -c /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/01.HelloWorld/main.cpp -o /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/01.HelloWorld.build/Objects-normal/x86_64/main.o36"F5EBBB29-4770-4398-97D7-593F92B98A84-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/01.HelloWorld/main.cpp9373c6479aeab741^27111d489aeab741^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/01.HelloWorld/main.cpp0000000000000000^2319"CompileC build/MacOSX.build/Debug/01.HelloWorld.build/Objects-normal/x86_64/main.o ../../../examples/01.HelloWorld/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/01.HelloWorld.build/HelloWorld_dbg.hmap -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug/include -I../../../include -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/01.HelloWorld.build/DerivedSources/x86_64 -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/01.HelloWorld.build/DerivedSources -F/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug -DMACOSX -D_DEBUG -MMD -MT dependencies -MF /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/01.HelloWorld.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/01.HelloWorld.build/Objects-normal/x86_64/main.dia -c /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/01.HelloWorld/main.cpp -o /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/01.HelloWorld.build/Objects-normal/x86_64/main.o36"E9374891-6CEE-4801-B84A-060134AFD384-
 
 CCreateUniversalBinary /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/HelloWorld_dbg.app/Contents/MacOS/HelloWorld_dbg normal "x86_64 i386"
 r0
 
 CLd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/HelloWorld_dbg.app/Contents/MacOS/HelloWorld_dbg normal x86_64
-s401171027.485653
-e401171028.246155
+s401250888.120394
+e401250888.742113
 r1
 xLd
 x/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/HelloWorld_dbg.app/Contents/MacOS/HelloWorld_dbg
 xnormal
 xx86_64
 old: warning: direct access in ___cxx_global_var_init to global weak symbol irr::core::string<char, irr::core::irrAllocator<char> >::~string() means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Link /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/HelloWorld_dbg.app/Contents/MacOS/HelloWorld_dbg836d7c5362e9b741^ee5b415462e9b741^-302"ld: warning: direct access in ___cxx_global_var_init to global weak symbol irr::core::string<char, irr::core::irrAllocator<char> >::~string() means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.1(21%IDEActivityLogMessage2@288"Direct access in ___cxx_global_var_init to global weak symbol irr::core::string<char, irr::core::irrAllocator<char> >::~string() means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-401171028#0#302#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#0#--1033"Ld ../../../bin/MacOSX/HelloWorld_dbg.app/Contents/MacOS/HelloWorld_dbg normal x86_64    cd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug -L/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug -F/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug -filelist /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/01.HelloWorld.build/Objects-normal/x86_64/HelloWorld_dbg.LinkFileList -mmacosx-version-min=10.8 -framework Foundation -framework AppKit -lIrrlicht -framework Cocoa -framework OpenGL -framework Carbon -framework IOKit -o /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/HelloWorld_dbg.app/Contents/MacOS/HelloWorld_dbg36"80F85BBC-70B9-421A-8C4F-62C44181E1AA-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Link /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/HelloWorld_dbg.app/Contents/MacOS/HelloWorld_dbgd4ef1e489aeab741^b9febd489aeab741^-302"ld: warning: direct access in ___cxx_global_var_init to global weak symbol irr::core::string<char, irr::core::irrAllocator<char> >::~string() means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.1(21%IDEActivityLogMessage2@288"Direct access in ___cxx_global_var_init to global weak symbol irr::core::string<char, irr::core::irrAllocator<char> >::~string() means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-401250888#0#302#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#0#--1033"Ld ../../../bin/MacOSX/HelloWorld_dbg.app/Contents/MacOS/HelloWorld_dbg normal x86_64    cd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug -L/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug -F/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug -filelist /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/01.HelloWorld.build/Objects-normal/x86_64/HelloWorld_dbg.LinkFileList -mmacosx-version-min=10.8 -framework Foundation -framework AppKit -lIrrlicht -framework Cocoa -framework OpenGL -framework Carbon -framework IOKit -o /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/HelloWorld_dbg.app/Contents/MacOS/HelloWorld_dbg36"E3B6E872-750F-4170-8CCD-BAF41BC37492-
 
 CLd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/01.HelloWorld.build/Objects-normal/i386/HelloWorld_dbg normal i386
 s401105800.401267
@@ -1111,10 +1117,10 @@ x/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/HelloWo
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Process /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug/HelloWorld_dbg.app95ba20d361e8b741^e35023d361e8b741^---0#0#0#--327"SymLink build/Debug/HelloWorld_dbg.app ../../../bin/MacOSX/HelloWorld_dbg.app    cd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX    /bin/ln -sf /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/HelloWorld_dbg.app /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug/HelloWorld_dbg.app36"69FD9F72-D59F-4A1D-96B6-EF0C8D81DB3C-
 
 CTouch /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/HelloWorld_dbg.app
-s401171028.254318
-e401171028.260979
+s401250888.750578
+e401250888.757477
 r1
 xTouch
 x/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/HelloWorld_dbg.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Touch /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/HelloWorld_dbg.app5531415462e9b741^b7cf425462e9b741^---0#0#0#--217"Touch ../../../bin/MacOSX/HelloWorld_dbg.app    cd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX    /usr/bin/touch -c /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/HelloWorld_dbg.app36"D649632A-FBCE-40B2-B907-E5453226F4EC-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Touch /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/HelloWorld_dbg.app4f3bc0489aeab741^abeac1489aeab741^---0#0#0#--217"Touch ../../../bin/MacOSX/HelloWorld_dbg.app    cd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX    /usr/bin/touch -c /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/HelloWorld_dbg.app36"35F7C119-4F37-4CA9-9E3F-A13FF1AF9984-
 

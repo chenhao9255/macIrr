@@ -40,7 +40,7 @@ t1351937312
 s1271
 
 N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/CustomSceneNode_dbg.app
-t1379475548
+t1379563192
 s102
 
 N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/CustomSceneNode_dbg.app/Contents/Info.plist
@@ -48,8 +48,8 @@ t1379413090
 s1134
 
 N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/CustomSceneNode_dbg.app/Contents/MacOS/CustomSceneNode_dbg
-t1379475548
-s10765328
+t1379563192
+s10769888
 
 N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/CustomSceneNode_dbg.app/Contents/PkgInfo
 t1379413090
@@ -60,9 +60,9 @@ t1379413091
 s13030
 
 N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/03.CustomSceneNode/main.cpp
-c00000000523920580000000000002380
-t1379475544
-s9088
+c00000000523A76C0000000000000236F
+t1379563200
+s9071
 i<irrlicht.h>
 i"driverChoice.h"
 
@@ -132,9 +132,9 @@ t1351937314
 s938
 
 N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../include/EMaterialFlags.h
-c000000005094ED200000000000000B1F
-t1351937312
-s2847
+c0000000052395F180000000000000B27
+t1379491608
+s2855
 
 N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../include/EMaterialTypes.h
 c000000005094ED22000000000000261F
@@ -607,9 +607,9 @@ t1351937312
 s88954
 
 N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../include/ISceneNode.h
-c000000005094ED22000000000000677B
-t1351937314
-s26491
+c0000000052395F16000000000000685F
+t1379491606
+s26719
 
 N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../include/ISceneNodeAnimator.h
 c000000005094ED200000000000000942
@@ -672,9 +672,9 @@ t1351937312
 s894
 
 N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../include/ITexture.h
-c000000005094ED20000000000000235E
-t1351937312
-s9054
+c00000000523952720000000000002380
+t1379488370
+s9088
 
 N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../include/ITimer.h
 c000000005094ED200000000000000C2A
@@ -986,8 +986,8 @@ t3
 s95
 
 N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug/libIrrlicht.a
-c000000005239221E0000000003761108
-t1379475998
+c0000000052395F3D0000000003761108
+t1379491645
 s58069256
 
 N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/03.CustomSceneNode.build/Objects-normal/i386/CustomSceneNode_dbg
@@ -1013,8 +1013,8 @@ t1379413090
 s131
 
 N/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/03.CustomSceneNode.build/Objects-normal/x86_64/main.o
-t1379475547
-s419764
+t1379563191
+s437180
 
 NDemoApp-Info.plist
 c000000005094ED1000000000000002EA
@@ -1026,14 +1026,14 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies2b696d9e59e9b741^dd616f9e59e9b741^---0#1#0#--18"Check dependencies36"E461EADF-CA7C-48B5-9387-5E5AC284F1B6-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies14218940aeeab741^61518940aeeab741^---0#1#0#--18"Check dependencies36"2C2E9E83-DE9D-4401-B724-D78D1DEE91B2-
 
 CCompileC build/MacOSX.build/Debug/03.CustomSceneNode.build/Objects-normal/i386/main.o /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/03.CustomSceneNode/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 r0
 
 CCompileC build/MacOSX.build/Debug/03.CustomSceneNode.build/Objects-normal/x86_64/main.o /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/03.CustomSceneNode/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s401168347.020843
-e401168347.628050
+s401256000.558311
+e401256001.162567
 r1
 xCompileC
 xbuild/MacOSX.build/Debug/03.CustomSceneNode.build/Objects-normal/x86_64/main.o
@@ -1042,21 +1042,21 @@ xnormal
 xx86_64
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/03.CustomSceneNode/main.cppc09405db57e9b741^9fc7a0db57e9b741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/03.CustomSceneNode/main.cpp0000000000000000^2369"CompileC build/MacOSX.build/Debug/03.CustomSceneNode.build/Objects-normal/x86_64/main.o ../../../examples/03.CustomSceneNode/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/03.CustomSceneNode.build/CustomSceneNode_dbg.hmap -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug/include -I../../../include -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/03.CustomSceneNode.build/DerivedSources/x86_64 -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/03.CustomSceneNode.build/DerivedSources -F/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug -DMACOSX -D_DEBUG -MMD -MT dependencies -MF /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/03.CustomSceneNode.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/03.CustomSceneNode.build/Objects-normal/x86_64/main.dia -c /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/03.CustomSceneNode/main.cpp -o /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/03.CustomSceneNode.build/Objects-normal/x86_64/main.o36"8D5E1EAC-5861-483A-A588-E21464A2392D-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/03.CustomSceneNode/main.cppc30e8f40aeeab741^0e9e2941aeeab741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/03.CustomSceneNode/main.cpp0000000000000000^2369"CompileC build/MacOSX.build/Debug/03.CustomSceneNode.build/Objects-normal/x86_64/main.o ../../../examples/03.CustomSceneNode/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/03.CustomSceneNode.build/CustomSceneNode_dbg.hmap -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug/include -I../../../include -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/03.CustomSceneNode.build/DerivedSources/x86_64 -I/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/03.CustomSceneNode.build/DerivedSources -F/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug -DMACOSX -D_DEBUG -MMD -MT dependencies -MF /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/03.CustomSceneNode.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/03.CustomSceneNode.build/Objects-normal/x86_64/main.dia -c /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/03.CustomSceneNode/main.cpp -o /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/03.CustomSceneNode.build/Objects-normal/x86_64/main.o36"21E9285A-E938-43B6-A0C0-B830A087DD97-
 
 CCreateUniversalBinary /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/CustomSceneNode_dbg.app/Contents/MacOS/CustomSceneNode_dbg normal "x86_64 i386"
 r0
 
 CLd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/CustomSceneNode_dbg.app/Contents/MacOS/CustomSceneNode_dbg normal x86_64
-s401168798.491907
-e401168800.152514
+s401256001.169136
+e401256001.825454
 r1
 xLd
 x/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/CustomSceneNode_dbg.app/Contents/MacOS/CustomSceneNode_dbg
 xnormal
 xx86_64
 old: warning: direct access in ___cxx_global_var_init to global weak symbol irr::core::string<char, irr::core::irrAllocator<char> >::~string() means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Link /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/CustomSceneNode_dbg.app/Contents/MacOS/CustomSceneNode_dbgc30f7e9e59e9b741^ae0f27a059e9b741^-302"ld: warning: direct access in ___cxx_global_var_init to global weak symbol irr::core::string<char, irr::core::irrAllocator<char> >::~string() means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.1(21%IDEActivityLogMessage2@288"Direct access in ___cxx_global_var_init to global weak symbol irr::core::string<char, irr::core::irrAllocator<char> >::~string() means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-401168799#0#302#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#0#--997"Ld ../../../bin/MacOSX/CustomSceneNode_dbg.app/Contents/MacOS/CustomSceneNode_dbg normal x86_64    cd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug -F/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug -filelist /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/03.CustomSceneNode.build/Objects-normal/x86_64/CustomSceneNode_dbg.LinkFileList -mmacosx-version-min=10.8 -framework Foundation -framework AppKit -lIrrlicht -framework Cocoa -framework OpenGL -framework Carbon -framework IOKit -o /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/CustomSceneNode_dbg.app/Contents/MacOS/CustomSceneNode_dbg36"EB376E35-C43B-43D0-BFE7-A4F8A7B86CDC-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Link /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/CustomSceneNode_dbg.app/Contents/MacOS/CustomSceneNode_dbgb0732b41aeeab741^6153d341aeeab741^-302"ld: warning: direct access in ___cxx_global_var_init to global weak symbol irr::core::string<char, irr::core::irrAllocator<char> >::~string() means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.1(21%IDEActivityLogMessage2@288"Direct access in ___cxx_global_var_init to global weak symbol irr::core::string<char, irr::core::irrAllocator<char> >::~string() means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-401256001#0#302#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#0#--997"Ld ../../../bin/MacOSX/CustomSceneNode_dbg.app/Contents/MacOS/CustomSceneNode_dbg normal x86_64    cd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug -F/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug -filelist /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/03.CustomSceneNode.build/Objects-normal/x86_64/CustomSceneNode_dbg.LinkFileList -mmacosx-version-min=10.8 -framework Foundation -framework AppKit -lIrrlicht -framework Cocoa -framework OpenGL -framework Carbon -framework IOKit -o /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/CustomSceneNode_dbg.app/Contents/MacOS/CustomSceneNode_dbg36"061005D9-15A8-436E-8F43-3DE850F82E02-
 
 CLd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/MacOSX.build/Debug/03.CustomSceneNode.build/Objects-normal/i386/CustomSceneNode_dbg normal i386
 r0
@@ -1091,10 +1091,10 @@ x/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/CustomS
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Process /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug/CustomSceneNode_dbg.appe84df1e263e8b741^4069f8e263e8b741^---0#0#0#--347"SymLink build/Debug/CustomSceneNode_dbg.app ../../../bin/MacOSX/CustomSceneNode_dbg.app    cd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX    /bin/ln -sf /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/CustomSceneNode_dbg.app /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug/CustomSceneNode_dbg.app36"EA92C5EF-0CF8-41A1-A7D3-78F4ECD8DCDC-
 
 CTouch /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/CustomSceneNode_dbg.app
-s401168800.163551
-e401168800.171229
+s401256001.833795
+e401256001.840868
 r1
 xTouch
 x/Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/CustomSceneNode_dbg.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Touch /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/CustomSceneNode_dbg.app29ed29a059e9b741^cbd52ba059e9b741^---0#0#0#--227"Touch ../../../bin/MacOSX/CustomSceneNode_dbg.app    cd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX    /usr/bin/touch -c /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/CustomSceneNode_dbg.app36"2790050E-020F-46BC-9672-D4955284F3F4-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Touch /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/CustomSceneNode_dbg.appe085d541aeeab741^b743d741aeeab741^---0#0#0#--227"Touch ../../../bin/MacOSX/CustomSceneNode_dbg.app    cd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX    /usr/bin/touch -c /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/CustomSceneNode_dbg.app36"441A2F42-277D-4138-A3F0-E03E372BCA25-
 

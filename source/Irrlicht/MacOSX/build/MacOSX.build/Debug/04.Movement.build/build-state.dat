@@ -2,8 +2,8 @@ T04.Movement
 v5
 r1
 cCheck dependencies
-cProcessInfoPlistFile /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement_dbg.app/Contents/Info.plist DemoApp-Info.plist
 cSymLink /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/build/Debug/Movement_dbg.app /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement_dbg.app
+cProcessInfoPlistFile /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement_dbg.app/Contents/Info.plist DemoApp-Info.plist
 cStripNIB /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../MacOSX/MainMenu.nib
 cCompileC build/MacOSX.build/Debug/04.Movement.build/Objects-normal/x86_64/main.o /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/04.Movement/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../bin/MacOSX/Movement_dbg.app/Contents/MacOS/Movement_dbg normal x86_64
@@ -1009,7 +1009,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciescf84de169ae9b741^6e86df169ae9b741^---0#1#0#--18"Check dependencies36"0BAD315F-B9AE-4740-942A-E410D6CAE495-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesb5dd34d196eab741^c32d3bd196eab741^---0#1#0#--18"Check dependencies36"99CC13F1-FDD8-4998-90A1-94EAEB8A719C-
 
 CCompileC build/MacOSX.build/Debug/04.Movement.build/Objects-normal/x86_64/main.o /Users/chenhao/Work/irrlicht/source/Irrlicht/MacOSX/../../../examples/04.Movement/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s401185294.252156

@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "../../../examples/03.CustomSceneNode/main.cpp"
-         timestampString = "401106107.355185"
+         timestampString = "401251897.884294"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "170"
-         endingLineNumber = "170"
+         startingLineNumber = "129"
+         endingLineNumber = "129"
          landmarkName = "main()"
          landmarkType = "7">
       </FileBreakpoint>
@@ -21,11 +21,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "../../../examples/03.CustomSceneNode/main.cpp"
-         timestampString = "401167164.398573"
+         timestampString = "401255960.176033"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "245"
-         endingLineNumber = "245"
+         startingLineNumber = "256"
+         endingLineNumber = "256"
          landmarkName = "main()"
          landmarkType = "7">
       </FileBreakpoint>
@@ -34,11 +34,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "../../../examples/03.CustomSceneNode/main.cpp"
-         timestampString = "401167655.61317"
+         timestampString = "401255960.176033"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "241"
-         endingLineNumber = "241"
+         startingLineNumber = "252"
+         endingLineNumber = "252"
          landmarkName = "main()"
          landmarkType = "7">
       </FileBreakpoint>
@@ -47,11 +47,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "../../../examples/03.CustomSceneNode/main.cpp"
-         timestampString = "401167658.318264"
+         timestampString = "401255960.176033"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "247"
-         endingLineNumber = "247"
+         startingLineNumber = "258"
+         endingLineNumber = "258"
          landmarkName = "main()"
          landmarkType = "7">
       </FileBreakpoint>
@@ -73,11 +73,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "../../../examples/03.CustomSceneNode/main.cpp"
-         timestampString = "401167812.084862"
+         timestampString = "401255427.056821"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "233"
-         endingLineNumber = "233"
+         startingLineNumber = "202"
+         endingLineNumber = "202"
          landmarkName = "main()"
          landmarkType = "7">
       </FileBreakpoint>
@@ -86,11 +86,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "../../../examples/03.CustomSceneNode/main.cpp"
-         timestampString = "401168356.114559"
+         timestampString = "401255960.176033"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "242"
-         endingLineNumber = "242"
+         startingLineNumber = "253"
+         endingLineNumber = "253"
          landmarkName = "main()"
          landmarkType = "7">
       </FileBreakpoint>
@@ -184,7 +184,7 @@
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
-         shouldBeEnabled = "Yes"
+         shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "../../../examples/11.PerPixelLighting/main.cpp"
@@ -199,7 +199,7 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "../../../examples/11.PerPixelLighting/main.cpp"
-         timestampString = "401184941.823676"
+         timestampString = "401253861.572069"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "445"
@@ -208,7 +208,7 @@
          landmarkType = "7">
       </FileBreakpoint>
       <FileBreakpoint
-         shouldBeEnabled = "Yes"
+         shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "../../../examples/04.Movement/main.cpp"
@@ -219,6 +219,56 @@
          endingLineNumber = "195"
          landmarkName = "main()"
          landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "../../../examples/11.PerPixelLighting/main.cpp"
+         timestampString = "401249941.344963"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "147"
+         endingLineNumber = "147"
+         landmarkName = "setMaterial()"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "../../../examples/04.Movement/main.cpp"
+         timestampString = "401250010.127623"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "1"
+         endingLineNumber = "1">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "../../../examples/04.Movement/main.cpp"
+         timestampString = "401250013.318265"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "195"
+         endingLineNumber = "195"
+         landmarkName = "main()"
+         landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "../../../examples/11.PerPixelLighting/main.cpp"
+         timestampString = "401250104.894174"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "72"
+         endingLineNumber = "72"
+         landmarkName = "MyEventReceiver(scene::ISceneNode* room,scene::ISceneNode* earth, gui::IGUIEnvironment* env, video::IVideoDriver* driver)"
+         landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>
 </Bucket>

@@ -1,24 +1,4 @@
-/** Example 003 Custom SceneNode
 
-This Tutorial is more advanced than the previous ones.
-If you are currently just playing around with the Irrlicht
-engine, you may want to look at other examples first.
-This tutorials shows how to create a custom scene node and
-how to use it in the engine. A custom scene node is needed
-if you want to implement a render technique the Irrlicht
-Engine currently does not support. For example, you can write
-an indoor portal based renderer or an advanced terrain scene
-node with it. By creating custom scene nodes, you can
-easily extend the Irrlicht Engine and adapt it to your own
-needs.
-
-I will keep the tutorial simple: Keep everything very
-short, everything in one .cpp file, and I'll use the engine
-here as in all other tutorials.
-
-To start, I include the header files, use the irr namespace,
-and tell the linker to link with the .lib file.
-*/
 #include <irrlicht.h>
 #include "driverChoice.h"
 
@@ -28,21 +8,7 @@ using namespace irr;
 #pragma comment(lib, "Irrlicht.lib")
 #endif
 
-/*
-Here comes the more sophisticated part of this tutorial:
-The class of our very own custom scene node. To keep it simple,
-our scene node will not be an indoor portal renderer nor a terrain
-scene node, but a simple tetraeder, a 3d object consisting of 4
-connected vertices, which only draws itself and does nothing more.
-Note that this scenario does not require a custom scene node in Irrlicht.
-Instead one would create a mesh from the geometry and pass it to a
-irr::scene::IMeshSceneNode. This example just illustrates creation of a custom
-scene node in a very simple setting.
 
-To let our scene node be able to be inserted into the Irrlicht
-Engine scene, the class we create needs to be derived from the
-irr::scene::ISceneNode class and has to override some methods.
-*/
 
 class CSampleSceneNode : public scene::ISceneNode
 {
@@ -55,20 +21,13 @@ class CSampleSceneNode : public scene::ISceneNode
 	video::S3DVertex Vertices[4];
 	video::SMaterial Material;
 
-	/*
-	The parameters of the constructor specify the parent of the scene node,
-	a pointer to the scene manager, and an id of the scene node.
-	In the constructor we call the parent class' constructor,
-	set some properties of the material, and
-	create the 4 vertices of the tetraeder we will draw later.
-	*/
 
 public:
 
 	CSampleSceneNode(scene::ISceneNode* parent, scene::ISceneManager* mgr, s32 id)
 		: scene::ISceneNode(parent, mgr, id)
 	{
-		Material.Wireframe = true;
+		Material.Wireframe = false;
 		Material.Lighting = true;
 
 		Vertices[0] = video::S3DVertex(0,0,10, 1,1,0,
@@ -186,8 +145,8 @@ int main()
 	video::IVideoDriver* driver = device->getVideoDriver();
 	scene::ISceneManager* smgr = device->getSceneManager();
 
-	smgr->addCameraSceneNode(0, core::vector3df(0,-40,0), core::vector3df(0,0,0));
-
+  scene::ICameraSceneNode* camera = smgr->addCameraSceneNodeFPS();
+	camera->setPosition(core::vector3df(-200,200,-200));
 	/*
 	Create our scene node. I don't check the result of calling new, as it
 	should throw an exception rather than returning 0 on failure. Because
@@ -199,6 +158,8 @@ int main()
 	*/
 	CSampleSceneNode *myNode =
 		new CSampleSceneNode(smgr->getRootSceneNode(), smgr, 666);
+  myNode->setScale(core::vector3df(5,5,5));
+  myNode->setPosition(core::vector3df(-70,130,45));
 
 	/*
 	To animate something in this boring scene consisting only of one
@@ -224,16 +185,63 @@ int main()
 		anim->drop();
 		anim = 0;
 	}
-
+  
+  
+  driver->setFog(video::SColor(0,138,125,81), video::EFT_FOG_LINEAR, 250, 1000, .003f, true, false);
+  
+  video::ITexture * myTexture = driver->getTexture("../../media/mypic.png");
+  myNode->setMaterialTexture(0, myTexture);
+  myNode->setMaterialType(video::EMT_NORMAL_MAP_TRANSPARENT_VERTEX_ALPHA);
+  myNode->setMaterialFlag(video::EMF_FOG_ENABLE, true);
+  
 	/*
 	I'm done with my CSampleSceneNode object, and so must drop my reference.
 	This won't delete the object, yet, because it is still attached to the
 	scene graph, which prevents the deletion until the graph is deleted or the
 	custom scene node is removed from it.
 	*/
-	myNode->drop();
-	myNode = 0; // As I shouldn't refer to it again, ensure that I can't
+//	myNode->drop();
+//	myNode = 0; // As I shouldn't refer to it again, ensure that I can't
 
+  
+  scene::ILightSceneNode * mylight = smgr->addLightSceneNode(myNode, core::vector3df(50,50,50),video::SColorf(0.5f, 1.0f, 0.5f,0.0f), 800.0f);
+  scene::ISceneNodeAnimator * myAni = smgr->createFlyCircleAnimator(core::vector3df(30,50,0),190.0f, -0.003f);
+
+  mylight->addAnimator(myAni);
+  myAni->drop();
+  
+  
+  scene::IAnimatedMesh * roomMesh = smgr->getMesh("../../media/room.3ds");
+  scene::ISceneNode* room = 0;
+	scene::ISceneNode* earth = 0;
+  
+  if (roomMesh) {
+    smgr->getMeshManipulator()->makePlanarTextureMapping(roomMesh->getMesh(0), 0.003f);
+    
+    video::ITexture* normalMap = driver->getTexture("../../media/rockwall_height.bmp");
+    
+		if (normalMap)
+			driver->makeNormalMapTexture(normalMap, 9.0f);
+    
+    scene::IMesh* tangentMesh = smgr->getMeshManipulator()->createMeshWithTangents(roomMesh->getMesh(0));
+		room = smgr->addMeshSceneNode(tangentMesh);
+    
+    room->setMaterialTexture(0, driver->getTexture("../../media/rockwall.jpg"));
+		room->setMaterialTexture(1, normalMap);
+    
+    room->getMaterial(0).SpecularColor.set(0,0,0,0);
+		room->getMaterial(0).Shininess = 0.f;
+    
+		room->setMaterialFlag(video::EMF_FOG_ENABLE, true);
+		room->setMaterialType(video::EMT_PARALLAX_MAP_SOLID);
+		// adjust height for parallax effect
+		room->getMaterial(0).MaterialTypeParam = 1.f / 64.f;
+    
+		// drop mesh because we created it with a create.. call.
+		tangentMesh->drop();
+  }
+  
+  
 	/*
 	Now draw everything and finish.
 	*/
